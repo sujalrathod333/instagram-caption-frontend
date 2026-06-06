@@ -17,7 +17,7 @@ function App() {
       setLoading(true);
       setData("");
 
-      const response = await axios.post("http://localhost:3000/ask", {
+      const response = await axios.post("https://instagram-caption-backend.onrender.com/ask", {
         question,
       });
 
